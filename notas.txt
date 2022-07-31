@@ -1,0 +1,13 @@
+--safe significa que se instala la dependencia de forma local
+
+se puede omitir el .js ya que node por defecto cree que son archivos js
+
+cuando en el require no se especifica una ruta, node intuye que lo quieres importar
+de las dependencias que tienes en el package.json
+
+Verbos Http
+Get: Regresa un valor
+Post: Publicar algun valor
+Patch: Modifica algun elemento
+Put: Modifica Todos los elementos
+Delete: Borra algun valor 
